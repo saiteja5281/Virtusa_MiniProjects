@@ -1,3 +1,5 @@
-com\virtusa\config\DBConnection.class
-com\virtusa\Main.class
+com\virtusa\LeaderBoard.class
 com\virtusa\Questions.class
+com\virtusa\config\DBConnection.class
+com\virtusa\User.class
+com\virtusa\Main.class
