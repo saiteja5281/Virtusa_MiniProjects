@@ -1,0 +1,66 @@
+INSERT INTO patients (patient_id, patient_name, patient_age, patient_gender) VALUES
+(1, 'Sai Teja', 24, 'Male'),
+(2, 'Anusha Reddy', 29, 'Female'),
+(3, 'Venkatesh Rao', 45, 'Male'),
+(4, 'Lakshmi Priya', 34, 'Female'),
+(5, 'Ravi Kumar', 38, 'Male'),
+(6, 'Sravani Devi', 26, 'Female'),
+(7, 'Karthikeya', 31, 'Male'),
+(8, 'Padmavathi', 52, 'Female'),
+(9, 'Chaitanya', 27, 'Male'),
+(10, 'Harika', 22, 'Female');
+
+INSERT INTO doctors (doctor_id, doctor_name, doctor_specialty) VALUES
+(101, 'Dr. Ramesh Kumar', 'Cardiology'),
+(102, 'Dr. Anjali Sharma', 'Neurology'),
+(103, 'Dr. Suresh Patel', 'Orthopedics'),
+(104, 'Dr. Priya Singh', 'Pediatrics'),
+(105, 'Dr. Arjun Verma', 'Dermatology');
+
+INSERT INTO doctor_appointments 
+(appointment_id, patient_id, doctor_id, appointment_date, consulting_cost) VALUES
+(1013, 3, 103, '2026-04-12', 850.00),
+(1001, 1, 101, '2026-04-10', 400.00),
+(1022, 5, 105, '2026-04-29', 700.00),
+(1007, 3, 103, '2026-04-18', 900.00),
+(1019, 2, 102, '2026-04-25', 600.00),
+(1003, 1, 101, '2026-04-20', 450.00),
+(1011, 5, 105, '2026-04-14', 650.00),
+(1009, 4, 104, '2026-04-13', 500.00),
+(1025, 7, 103, '2026-04-28', 950.00),
+(1005, 2, 102, '2026-04-11', 600.00),
+(1016, 8, 103, '2026-04-17', 850.00),
+(1028, 9, 104, '2026-04-18', 520.00),
+(1014, 6, 101, '2026-04-15', 400.00),
+(1020, 4, 104, '2026-04-17', 550.00),
+(1002, 1, 101, '2026-04-13', 420.00),
+(1023, 10, 102, '2026-04-19', 620.00),
+(1018, 3, 103, '2026-04-30', 880.00),
+(1026, 7, 101, '2026-05-02', 450.00),
+(1012, 5, 105, '2026-04-21', 700.00),
+(1021, 8, 103, '2026-04-27', 870.00),
+(1015, 6, 101, '2026-04-22', 410.00),
+(1027, 9, 104, '2026-04-26', 530.00),
+(1017, 2, 102, '2026-05-03', 610.00);
+
+INSERT INTO treatments (treatment_id, patient_id, diagnosis, cost) VALUES
+(2007, 7, 'Headache, likely stress', 1750.50),
+(2001, 1, 'Mild fever', 780.00),
+(2013, 3, 'BP still high', 2150.75),
+(2004, 4, 'Skin rash on hands', 1180.00),
+(2010, 10, 'Irregular periods', 1685.40),
+(2002, 2, 'Routine pregnancy check', 1520.00),
+(2016, 8, 'Chest pain, needs follow-up', 2890.00),
+(2009, 9, 'Acne issue', 920.00),
+(2018, 1, 'Weakness after fever', 640.25),
+(2005, 5, 'Knee pain', 2480.00),
+(2012, 6, 'Cough not reducing', 670.90),
+(2015, 3, 'BP normal today', 950.00),
+(2006, 6, 'Cold and throat pain', 590.00),
+(2019, 2, 'Second checkup, normal', 1600.00),
+(2011, 4, 'Rash improving', 800.00),
+(2021, 5, 'Pain reduced slightly', 1300.00),
+(2023, 7, 'Headache less now', 1100.00),
+(2025, 8, 'Feeling better now', 1200.00),
+(2020, 9, 'Skin getting better', 850.00),
+(2022, 10, 'Hormone imbalance', 1750.00);
