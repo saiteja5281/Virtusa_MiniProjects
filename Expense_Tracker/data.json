@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-04-20",
+    "category": "Food",
+    "amount": 120,
+    "description": "Lunch at college canteen"
+  },
+  {
+    "date": "2026-04-20",
+    "category": "Travel",
+    "amount": 60,
+    "description": "Bus fare"
+  },
+  {
+    "date": "2026-04-21",
+    "category": "Bills",
+    "amount": 500,
+    "description": "Internet recharge"
+  },
+  {
+    "date": "2026-04-22",
+    "category": "Food",
+    "amount": 200,
+    "description": "Dinner with friends"
+  }
+]
